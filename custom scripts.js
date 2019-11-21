@@ -10,10 +10,10 @@ $(document).ready(function){
 $(".nav nav-masthead justify-content-center").mouseleave(function{
 		$(this).css("font-weight","600");
 	};
-$(".btn-secondary").mouseenter(function){
-	$(this).css("background-color": "#F2AFA6");
+$(".btn-primary").mouseenter(function){
+	$(this).css("background-color": "#DDDDDD");
 }
-$(".btn-secondary").mouseleave(function){
-	$(this).css("background-color": "#F9C7BB");
+$(".btn-primary").mouseleave(function){
+	$(this).css("background-color": "#121323");
 }
 }

@@ -1,0 +1,36 @@
+.btn-primary{
+  background-color: #121323;
+  border:0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.jumbotron{
+
+}
+
+.jumbotron {
+    background-image: url(./color.png);
+   /* padding: 4rem 2rem;*/
+    padding-top: 10rem;
+    padding-right: 2rem;
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+}
+
+h1.display-4{
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 500
+}
+.lead{
+	margin-bottom: 1.5rem;
+}
+.number{
+	padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+}

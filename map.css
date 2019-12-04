@@ -3,41 +3,35 @@ margin: 0;
 padding: 0;
 }
 
-.jumbotron {
-    /*background-image: url(./color.png);*/
-   /* padding: 4rem 2rem;*/
 
-    padding-left: 200px;
-}
 
 #map {
 position: relative;
 top: 0;
 bottom: 0;
-left: 200;
+left: 0;
 right: 0;
-width: 50%;
+width: 75%;
 height: 100%;
+float: right;
 /*width: 50vw;
 height: 100vh;*/
-padding-left: 200px;
+/*padding-left: 200px;*/
 }
 
 #LeftSideBar {
-    background-color: #123213;
-    position: relative;
-    width: 192px;
+    /*background-color: #aaaaaa;*/
+    background-image: url(./color.png);
+    position: fixed;
+    width: 25%;
+    height: 100vh;
     float: left;
-    min-height: 370px;
+    /*min-height: 370px;*/
     text-align: left;
   }
 
 
-.bg-light {
-background-color: #F9C7BB; }
-
-.navbar-light{
-  color: rgba(0, 0, 0, 0.9); }
-  .navbar-light :hover, .navbar-light :focus {
-    color: rgba(0, 0, 0, 0.9);
- }
+.popup-image{
+  position: relative;
+  width: 220;
+}

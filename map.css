@@ -1,37 +1,93 @@
 body {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 
 #map {
-position: relative;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-width: 75%;
-height: 100%;
-float: right;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  float: right;
 /*width: 50vw;
 height: 100vh;*/
 /*padding-left: 200px;*/
 }
 
 #LeftSideBar {
-    /*background-color: #aaaaaa;*/
-    background-image: url(./color.png);
-    position: fixed;
-    width: 25%;
-    height: 100vh;
-    float: left;
-    /*min-height: 370px;*/
-    text-align: left;
-  }
+  background-color: #2a2a2a;
+  background-image: url(./sidebar.png);
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  float: left;
+  /*min-height: 370px;*/
+  text-align: left;
+}
+
+h3{
+ font-family: 'Lato', sans-serif;
+ font-weight: 400;
+ font-size: 2rem;
+ color: #bbbbbb;
+}
+
+.title{
+  padding-top: 45;
+
+}
+
+#map-sidebar {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  background:rgba(0, 57, 77, 0.85);
+  padding: 15px;
+  z-index: 1;
+  font-size: 10px;
+  max-width: 130px;
+}
+
+
+#layers-control h3 { 
+  line-height: initial;
+  font-size: unset;
+  font-family: 'Lato', sans-serif;
+}
+
+#layers-control a {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #111111;
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #cccccc;
+}
+
+#layers-control a.active {
+  background-color: #cccccc;
+}
+
+#layers-control a:hover {
+  background-color: #f00;
+}
+#layers-control a.active:hover {
+  background: #454545;
+}
 
 
 .popup-image{
   position: relative;
   width: 220;
+  height: relative;
 }

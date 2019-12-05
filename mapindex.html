@@ -1,15 +1,37 @@
 <html>
 <head>
-<title>Map View</title>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
-<link rel="stylesheet" href="map.css">
+	<title>Map View</title>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel="stylesheet" href="map.css">
 </head>
 <body>
-<div id="leftsidebar">
+	<div id="leftsidebar">
+		<div class="title" align="middle" >
+			<h3>FIND ON MAP</h3>
+		</div>
 
-</div>
+		<div id='layers-control' align="middle">
+			<h3>Show/Hide Layers</h3>
+			<a href="#" class="active button-default" id="redPoint">RED</a>
 
-<div id="map"></div>
+			<a href="#" class="active button-default" id="purplePoint">PURPLE</a>
+
+			<a href="#" class="active button-default" id="yellowPoint">YELLOW</a>
+
+			<a href="#" class="active button-default" id="bluePoint">BLUE</a>
+
+			<a href="#" class="active button-default" id="whitePoint">WHITE</a>
+			<a href="#" class="active button-default" id="blackPoint">BLACK</a>
+
+
+
+		</div>
+		</div>
+		<!-- <div id='legend'></div> -->
+	</div>
+
+	<div id="map"></div>
+
 
 </body>
 

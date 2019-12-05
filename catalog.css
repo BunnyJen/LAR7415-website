@@ -22,11 +22,13 @@ h3{
  color: #bbbbbb;
 }
 
-.subtitle{
+.title{
   margin-top: 45;
-  padding-top:45;
+  padding-top:60;
 
 }
+
+
 /* Sidebar Content */
 /*#sidebar>div { padding: 20px; }
 

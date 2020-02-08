@@ -2,6 +2,7 @@
 // jquery tutorial
 
 $(document).ready(function){
+	console.log("vvv")
 
 	$(".nav nav-masthead justify-content-center").mouseenter(function){
 		$(this).css("font-weight","700");

@@ -14,6 +14,7 @@
 .jumbotron {
     background-image: url(./color.png);
    /* padding: 4rem 2rem;*/
+    height: 760px;
     padding-top: 10rem;
     padding-right: 2rem;
     padding-bottom: 10rem;
@@ -27,6 +28,20 @@ h1.display-4{
 h3.guide{
   font-weight: 300;
 }
+
+.container{
+margin-top: 15px;
+}
+
+.featurette-divider{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/*.featurette-image{
+  height: 400px;
+  width: 540px;
+}*/
 
 .lead{
 	margin-bottom: 1.5rem;
